@@ -8,6 +8,8 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
+    { name: 'Services', href: '#services' },
+    { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -20,7 +22,7 @@ const Navbar = () => {
             <div className="flex items-center justify-center w-8 h-8 rounded-lg gradient-primary">
               <Type className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-display text-xl text-gradient">FancyFonts</span>
+            <span className="font-display text-xl text-gradient">Jensen Dev</span>
           </div>
 
           {/* Desktop Navigation */}
